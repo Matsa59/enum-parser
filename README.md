@@ -22,7 +22,7 @@ Transform Enum's key to atom :
 ```elixir
 my_map = %{"foo" => "bar", "baz" => %{"foo" => "bar"}}
 EnumParser.to_atom_key(my_map)
-# => %{foo: "bar", baz: => %{foo: "bar"}}
+# => %{foo: "bar", baz: %{foo: "bar"}}
 ```
 
 Or transform Enum's key to string :
